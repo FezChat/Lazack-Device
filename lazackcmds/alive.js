@@ -2,13 +2,13 @@ let handler = async (m, { conn }) => {
     // Alive Message with emojis + footer
     let aliveMessage = [
         "👋 Hello there!",
-        "🤖 I am *Lazack Device Bot*",
-        "💡 Developed by *Lazack28*",
-        "🏢 Owned by *Lazack Solutions Inc*",
+        "🤖 I am *Fee XMD BOT*",
+        "💡 Developed by *Fredi Ai*",
+        "🏢 Owned by *Fredi Ezra tz*",
         "✅ The bot is *active & running smoothly* 🚀",
         "✨ Stay connected and enjoy the features! 🌟",
         "",
-        "> ⚡ Powered by *Lazack Organisation* 🌐"
+        "> ⚡ Powered by *FREDI AI* 🌐"
     ];
 
     // Send first line
@@ -46,3 +46,4 @@ handler.tags = ['main'];
 handler.command = ['alive'];
 
 export default handler;
+
